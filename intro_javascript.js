@@ -34,4 +34,9 @@ let person = { name: "John", age: 25 };
  console.log(' i love' + ' to code' );
  console.log(' hello' + '' + ' world ');
  */
+/*
 console.log('teaching the world how to code'.length);
+*/
+console.log('hello'.toUpperCase());
+console.log('Hello'.startsWith('h'));
+console.log(' i love to code'.trim());
