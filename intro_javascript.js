@@ -37,6 +37,13 @@ let person = { name: "John", age: 25 };
 /*
 console.log('teaching the world how to code'.length);
 */
+/*
 console.log('hello'.toUpperCase());
 console.log('Hello'.startsWith('h'));
 console.log(' i love to code'.trim());
+*/
+console.log(Math.random());
+console.log(Math.random()* 30);
+console.log(Math.floor(Math.random()* 30));
+console.log(Math.ceil(43.8));
+console.log(Number.isInteger(2017));
