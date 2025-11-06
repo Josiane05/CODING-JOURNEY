@@ -3,6 +3,7 @@
 console.log(20);
 console.log('it was a love at first time');
 */
+/*
 let x;
 console.log(x);
 
@@ -21,3 +22,9 @@ let person = { name: "John", age: 25 };
    console.log(person);
    console.log(array);
    console.log(date);
+   */
+  console.log(2 + 4);
+  console.log(4 - 2);
+  console.log(2 * 4);
+  console.log( 4 / 2);
+  console.log(12 % 3);
