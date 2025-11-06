@@ -30,5 +30,8 @@ let person = { name: "John", age: 25 };
   console.log( 4 / 2);
   console.log(12 % 3);
   */
+ /*
  console.log(' i love' + ' to code' );
  console.log(' hello' + '' + ' world ');
+ */
+console.log('teaching the world how to code'.length);
