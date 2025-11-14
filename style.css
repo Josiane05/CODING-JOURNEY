@@ -1,0 +1,132 @@
+/* ===== DEVELOPER GIRLY AESTHETIC ===== */
+body {
+    font-family: 'Roboto Mono', 'Courier New', monospace; /* dev vibes with monospaced font */
+    background: linear-gradient(135deg, #ffe6f2, #fff0fa, #e6f7ff); /* soft pink & pastel blue */
+    margin: 0;
+    padding: 0;
+    color: #3a3a3a;
+}
+
+/* Main container */
+div {
+    width: 85%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffffe6;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(255, 105, 180, 0.2);
+    backdrop-filter: blur(5px);
+    border-left: 6px solid #ff4fa3; /* subtle dev card style */
+    animation: slideFade 1s ease-in-out;
+}
+
+/* Soft slide fade animation */
+@keyframes slideFade {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Titles with dev + girly vibe */
+h1 {
+    text-align: center;
+    color: #ff4fa3;
+    font-size: 38px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: #d81b60;
+    margin-top: 30px;
+    font-size: 24px;
+    border-left: 5px solid #ba2d65;
+    padding-left: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Profile picture */
+img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #ff4fa3;
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.3);
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.08) rotate(2deg);
+    border-color: #ec407a;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.7;
+    font-size: 16px;
+    color: #4a3c47;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Strong & Emphasis */
+strong {
+    color: #ff4fa3;
+    font-weight: 600;
+}
+
+em {
+    color: #ba2d65;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* Lists with developer touches */
+ul, ol {
+    margin-left: 40px;
+    font-size: 16px;
+    color: #3a3a3a;
+    font-family: 'Roboto Mono', monospace;
+}
+
+li {
+    margin: 6px 0;
+    padding: 3px 0;
+    transition: all 0.2s ease;
+}
+
+li:hover {
+    color: #ff69b4;
+    transform: translateX(5px);
+    cursor: pointer;
+}
+
+/* Code snippet style for dev energy */
+code {
+    background-color: #ffe6f2;
+    color: #d81b60;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Buttons with girly dev energy */
+button {
+    background-color: #ff4fa3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.3);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: #ec407a;
+}
